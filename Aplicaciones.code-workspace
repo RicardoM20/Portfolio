@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "..\\Aplicaciones"
+		},
+		{
+			"path": "..\\HTML-DOM"
+		},
+		{
+			"path": "..\\JavaScript"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\TypeScript"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Portfolio"
+	}
+}
