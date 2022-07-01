@@ -1,19 +1,24 @@
 {
 	"folders": [
 		{
+			"name": "Aplicaciones",
 			"path": "..\\Aplicaciones"
 		},
 		{
+			"name": "HTML-DOM",
 			"path": "..\\HTML-DOM"
 		},
 		{
+			"name": "JavaScript",
 			"path": "..\\JavaScript"
 		},
 		{
-			"path": "."
+			"name": "TypeScript",
+			"path": "..\\TypeScript"
 		},
 		{
-			"path": "..\\TypeScript"
+			"name": "Portfolio",
+			"path": "."
 		}
 	],
 	"settings": {
