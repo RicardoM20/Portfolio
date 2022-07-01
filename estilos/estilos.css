@@ -14,50 +14,28 @@ html, body{
 #logotipo{
     font-family: sans-serif;
     color: #252839;
-    font-size: 3vw;
+    font-size: 3.5rem;
     margin-left: 1.5rem;
     margin-bottom: .5rem;
     color: #fff;
 }
-/* Titulo de FrontEnd */
-#titulo-inicial{
-    margin: auto;
-    display: table;
+.toggle{
+    color: white;
+    background: none;
+    border: none;
+    font-size: 30px;
+    padding: 0 20px;
+    line-height: 60px;
+    display: none;
 }
-#tituloFront{
-    font-family: monospace;
-    margin-left: 10%;
-    float: left;
-    position: relative;
-    font-size: 8rem;
-    color: #fff;
-}
-.spanTitulo{
-    position: absolute;
-    right: 0;
-    width: 0;
-
-    background: #252839;
-    border-left: 2px solid #000;
-    animation: maquina 5s infinite alternate steps(24);
-}
-@keyframes maquina{
-    from {
-        width: 100%;
-    }
-    to {
-        width: 0;
-    }
-}
-
-
-
 .nav{
     font-size: 1.3rem;
     font-family: sans-serif;
+    max-width: 992px;
 }
 .nav-link{
     margin-right: 50px;
+    width: max-content;
 }
 
 #letras-nav1{
@@ -140,6 +118,40 @@ html, body{
     transform: scaleX(1);
     transform-origin: bottom left;
 }
+/* Titulo de FrontEnd */
+#titulo-inicial{
+    margin: auto;
+    display: table;
+}
+#tituloFront{
+    font-family: monospace;
+    margin-left: 10%;
+    float: left;
+    position: relative;
+    font-size: 8rem;
+    color: #fff;
+}
+.spanTitulo{
+    position: absolute;
+    right: 0;
+    width: 0;
+
+    background: #252839;
+    border-left: 2px solid #000;
+    animation: maquina 5s infinite alternate steps(24);
+}
+@keyframes maquina{
+    from {
+        width: 100%;
+    }
+    to {
+        width: 0;
+    }
+}
+
+
+
+
 
 /* Texto inicial y boton */
 #texto-inicial{
