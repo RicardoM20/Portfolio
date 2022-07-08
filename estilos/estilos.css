@@ -138,7 +138,7 @@ html, body{
 
     background: #252839;
     border-left: 2px solid #000;
-    animation: maquina 5s infinite alternate steps(24);
+    animation: maquina 5s 1 alternate steps(24);
 }
 @keyframes maquina{
     from {
