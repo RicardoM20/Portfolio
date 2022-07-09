@@ -336,16 +336,22 @@ html, body{
 .iconos{
     height: 100px;
     width: 8%;
-    margin-bottom: 100px;
+    margin-bottom: 10px;
     color: #fdfdfd;
+    transform: scale(1);
+    transition-duration: 0.5s;
 }
 .iconos:hover{
     transform: scale(1.5);
     transition-duration: 0.5s;
 }
-.iconos{
-    transform: scale(1);
-    transition-duration: 0.5s;
+#discord{
+    font-size: 1.4rem;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
 }
 
 /* Scroll Personalizado */
@@ -356,4 +362,34 @@ body::-webkit-scrollbar{
 body::-webkit-scrollbar-thumb{
     background: #6a6a6a;
     border-radius: 10px;
+}
+
+
+/* Go-Top-Button */
+#button-up{
+    font-size: 4.5rem;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+    transition: .2s ease;
+    transform: scale(0);
+}
+#button-up:hover{
+    transform: scale(1.2);
+    border-color: #6a6a6a;   
+}
+
+/* Formulario de contacto */
+.form{
+    margin: 0 auto;
+    background-color: #6a6a6a;
+    width: 60%;
+    height: 50%;
+    margin-bottom: 100px;
 }
