@@ -331,7 +331,7 @@ html, body{
 /* Contacto */
 .contacto{
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 20em;
 }
 .iconos{
     height: 100px;
@@ -386,10 +386,54 @@ body::-webkit-scrollbar-thumb{
 }
 
 /* Formulario de contacto */
-.form{
-    margin: 0 auto;
-    background-color: #6a6a6a;
-    width: 60%;
-    height: 50%;
-    margin-bottom: 100px;
+.form-container{
+    background-color: #fdfdfd;
+    width: 90%;
+    margin: auto;
+    max-width: 400px;
+    border-radius: 1em;
+    padding: 3.5em 1.5em;
+    display: grid;
+    gap: 1em;
+    grid-auto-columns: 100%;
+}
+.form-title{
+    text-align: center;
+    font-size: 1.9em;
+    margin-bottom: .4em;
+}
+.forma{
+    font-size: 1rem;
+    padding: .8em 1em;
+    outline: none;
+    border: none;
+    border: 1px solid #bbb0b0;
+    border-radius: .2em;
+}
+.forma-mensaje{
+    resize: none;
+    padding: 1.8em .5em;
+}
+.form-cta{
+    background-color: #0099cc;
+    color: #fff;
+    border: none;
+    font-weight: 300;
+    padding: .7em 0;
+    border-radius: .2em;
+    cursor: pointer;
+    font-weight: 400;
+}
+@media (max-width: 450px){
+    .form{
+        padding: 3.5em 1.5em;
+    }
+}
+
+/* Pie de pagina */
+footer{
+    color: #bbb0b0;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 5em;
 }
